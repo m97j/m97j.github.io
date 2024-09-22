@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 吳健雄
+title: 김민재
 
 # Name pronunciation (optional)
 name_pronunciation: Chien Shiung Wu
@@ -16,7 +16,7 @@ status:
 # Is this the primary user of the site?
 superuser: true
 
-# Role/position/tagline
+# Role/position/tagline`
 role: Professor of Artificial Intelligence
 
 # Organizations/Affiliations to show in About widget
