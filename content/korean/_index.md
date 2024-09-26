@@ -10,8 +10,8 @@ design:
 sections:
   - block: hero
     content:
-      title: Welcome to my homepage
-      text: 🧱 EASY. FREE (OPEN SOURCE). NO-CODE  🧱
+      title: 김민재의 홈페이지에 오신 것을 환영합니다.
+      text: 🧱 저에 대해 더 자세히 알아보세요!  🧱
       primary_action:
         text: Get Started
         url: https://hugoblox.com/templates/
