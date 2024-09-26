@@ -34,7 +34,6 @@ sections:
           filename: bg-triangles.svg
           filters:
             brightness: 0.5
-
   - block: projects
     content:
       items:
@@ -56,7 +55,6 @@ sections:
       # Reduce spacing
       spacing:
         padding: ["1rem", 0, "1rem", 0]
-
   - block: features
     id: features
     content:
@@ -81,7 +79,6 @@ sections:
         - name: Swappable Blocks
           icon: rectangle-group
           description: Build your pages with blocks - no coding required!
-
   - block: cta-image-paragraph
     id: solutions
     content:
@@ -113,7 +110,6 @@ sections:
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
-
   - block: testimonials
     content:
       title: ""
@@ -127,8 +123,7 @@ sections:
     design:
       spacing:
         # Reduce bottom spacing so the testimonial appears vertically centered between sections
-        padding: ["6rem", 0, 0, 0]
-        
+        padding: ["6rem", 0, 0, 0]        
   - block: cta-card
     content:
       title: Build your future-proof website
