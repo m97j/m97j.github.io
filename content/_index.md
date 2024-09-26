@@ -12,7 +12,7 @@ sections:
   - block: hero
     content:
       title: Welcome to my Home!.
-      text: 🧱 저에 대해 더 자세히 알아보세요!  🧱
+      text: 🧱 저에 대해 더 자세히 알아보세요! 🧱
       primary_action:
         text: 
         url: https://hugoblox.com/templates/
