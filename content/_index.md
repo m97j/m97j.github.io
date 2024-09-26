@@ -8,19 +8,22 @@ design:
   spacing: "6rem"
 
 sections:
-
   - block: hero
     content:
-      title: Welcome to my Home!.
-      text: 🧱 저에 대해 더 자세히 알아보세요! 🧱
+      title: 김민재의 홈페이지에 오신 것을 환영합니다.
+      text: 🧱 저에 대해 더 자세히 알아보세요!  🧱
       primary_action:
-        text: 
+        text: Get Started
         url: https://hugoblox.com/templates/
         icon: rocket-launch
       secondary_action:
         text: Read the docs
         url: https://docs.hugoblox.com
-      
+      announcement:
+        text: "Announcing the release of version 1."
+        link:
+          text: "Read more"
+          url: "/blog/"
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -34,7 +37,7 @@ sections:
           filename: bg-triangles.svg
           filters:
             brightness: 0.5
-  - block: projects
+  - block: stats
     content:
       items:
         - statistic: "1M+"
@@ -123,7 +126,7 @@ sections:
     design:
       spacing:
         # Reduce bottom spacing so the testimonial appears vertically centered between sections
-        padding: ["6rem", 0, 0, 0]        
+        padding: ["6rem", 0, 0, 0]
   - block: cta-card
     content:
       title: Build your future-proof website
