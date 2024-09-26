@@ -8,22 +8,19 @@ design:
   spacing: "6rem"
 
 sections:
+
   - block: hero
     content:
-      title: 김민재의 홈페이지에 오신 것을 환영합니다.
-      text: 🧱 EASY. FREE (OPEN SOURCE). NO-CODE  🧱
+      title: Welcome to my Home!.
+      text: 🧱 저에 대해 더 자세히 알아보세요!  🧱
       primary_action:
-        text: Get Started
+        text: 
         url: https://hugoblox.com/templates/
         icon: rocket-launch
       secondary_action:
         text: Read the docs
         url: https://docs.hugoblox.com
-      announcement:
-        text: "Announcing the release of version 1."
-        link:
-          text: "Read more"
-          url: "/blog/"
+      
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -37,7 +34,8 @@ sections:
           filename: bg-triangles.svg
           filters:
             brightness: 0.5
-  - block: stats
+
+  - block: projects
     content:
       items:
         - statistic: "1M+"
@@ -58,6 +56,7 @@ sections:
       # Reduce spacing
       spacing:
         padding: ["1rem", 0, "1rem", 0]
+
   - block: features
     id: features
     content:
@@ -82,6 +81,7 @@ sections:
         - name: Swappable Blocks
           icon: rectangle-group
           description: Build your pages with blocks - no coding required!
+
   - block: cta-image-paragraph
     id: solutions
     content:
@@ -113,6 +113,7 @@ sections:
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
+
   - block: testimonials
     content:
       title: ""
@@ -127,6 +128,7 @@ sections:
       spacing:
         # Reduce bottom spacing so the testimonial appears vertically centered between sections
         padding: ["6rem", 0, 0, 0]
+        
   - block: cta-card
     content:
       title: Build your future-proof website
