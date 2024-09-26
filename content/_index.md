@@ -13,12 +13,12 @@ sections:
       title: 김민재의 홈페이지에 오신 것을 환영합니다.
       text: 🧱 저에 대해 더 자세히 알아보세요!  🧱
       primary_action:
-        text: Get Started
-        url: https://hugoblox.com/templates/
+        text: Go to github
+        url: https://github.com/m97j
         icon: rocket-launch
       secondary_action:
-        text: Read the docs
-        url: https://docs.hugoblox.com
+        text: Read the blogs
+        url: /blog/
     design:
       spacing:
         padding: [0, 0, 0, 0]
