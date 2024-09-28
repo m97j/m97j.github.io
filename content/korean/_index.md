@@ -11,7 +11,7 @@ sections:
   - block: hero
     content:
       title: 김민재의 홈페이지에 오신 것을 환영합니다.
-      text: 🧱 저에 대해 더 자세히 알아보세요!  🧱
+      text: 저에 대해 더 자세히 알아보세요!
       primary_action:
         text: Go to github
         url: https://github.com/m97j
