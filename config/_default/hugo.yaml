@@ -20,8 +20,9 @@ hasCJKLanguage: false
 defaultContentLanguageInSubdir: true
 removePathAccents: true
 
+ignoreErrors:
+  - "error-remote-getcsv"
 
-ignoreErrors = ["error-remote-getcsv"]
 
 ############################
 ## ADVANCED
