@@ -54,7 +54,7 @@ sections:
           url: 
 
       - title: <span style="font-size:70%">Game Programming</span>
-        content: <span style="font-size:70%">Unity, Unreal등의 게임 엔진을 이용하여 게임 개발<span style="font-size:70%">
+        content: <span style="font-size:70%">3D Game programming by using Game Engene such as Unity and Unreal<span style="font-size:70%">
         align: center
         background:
           image:
@@ -65,7 +65,7 @@ sections:
           color: '#000'
 
       - title: <span style="font-size:70%">Virtual Reality</span>
-        content: <span style="font-size:70%">사용자의 ~~이 증가하는 VR컨텐츠 개발</span>
+        content: <span style="font-size:70%">Developing VR contents that ~~</span>
         align: center
         background:
           image:
@@ -76,7 +76,7 @@ sections:
           color: '#000'
 
       - title: <span style="font-size:70%">AI</span>
-        content: <span style="font-size:70%">사용자와 컴퓨터 시스템의 상호작용을 더 실감나게 하는 기술</span>
+        content: <span style="font-size:70%">Can make the users feel more comfortable and more realastic</span>
         align: center
         background:
           image:
@@ -87,7 +87,7 @@ sections:
           color: '#000'
 
       - title: <span style="font-size:70%">Quantum Computing</span>
-        content: <span style="font-size:70%">복잡한 계산을 가능하게 해 더 좋은 퀄리티의 프로그램 개발을 가능하게 하는 양자 컴퓨팅 기술 공부</span>
+        content: <span style="font-size:70%">Studying about quantunm computing that ~~</span>
         align: center
         background:
           image:

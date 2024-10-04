@@ -37,7 +37,7 @@ sections:
       slides:
 
       - title: <span style="font-size:70%">Interest in</span>
-        content: <span style="font-size:70%">Interest in things</span>
+        content: <span style="font-size:70%">관심있는 분야들</span>
         align: center
         background:
           image:
