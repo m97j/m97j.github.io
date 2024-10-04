@@ -4,13 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ .Title }}</title>
-  {{ partial "head.html" . }}
 </head>
 <body>
   <header>
     <nav>
       <!-- 기존 메뉴 항목들 -->
-      {{ partial "menu.html" . }}
+      {{ range .Site.Menus.main }}
+        <a href="{{ .URL }}">{{ .Name }}</a>
+      {{ end }}
       <!-- 언어 선택기 추가 -->
       {{ partial "language-selector.html" . }}
     </nav>
@@ -18,8 +19,5 @@
   <main>
     {{ block "main" . }}{{ end }}
   </main>
-  <footer>
-    {{ partial "footer.html" . }}
-  </footer>
 </body>
 </html>
