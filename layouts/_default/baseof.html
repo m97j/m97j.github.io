@@ -8,13 +8,21 @@
 <body>
   <header>
     <nav>
-      <!-- 기존 메뉴 항목들 -->
-      {{ range .Site.Menus.main }}
-        <a href="{{ .URL }}">{{ .Name }}</a>
-      {{ end }}
-      <!-- 언어 선택기 추가 -->
-      {{ partial "language-selector.html" . }}
-    </nav>
+      <ul>
+        {{ range .Site.Menus.main }}
+          <li>
+            <a href="{{ .URL }}">{{ .Name }}</a>
+            {{ if .HasChildren }}
+              <ul>
+                {{ range .Children }}
+                  <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                {{ end }}
+              </ul>
+            {{ end }}
+          </li>
+        {{ end }}
+      </ul>
+    </nav>    
   </header>
   <main>
     {{ block "main" . }}{{ end }}

@@ -9,7 +9,7 @@
 ko:
   languageCode: ko
   languageName: "한국어"
-  contentDir: "content/korean"
+  contentDir: "content/ko"
   weight: 1
 en:
   languageCode: en

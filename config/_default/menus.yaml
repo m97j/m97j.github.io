@@ -18,3 +18,13 @@ main:
   - parent: Resources
     name: Blog
     url: blog/
+  - name: Language
+    weight: 50
+    hasChildren: true
+  - parent: "language"
+    name: "한국어"
+    url: "/ko/"
+  - parent: "language"
+    name: "English"
+    url: "/en/"
+
