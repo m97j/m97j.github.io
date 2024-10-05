@@ -39,7 +39,6 @@ header:
       filename: "logo.svg"
     show_day_night: true
     show_search: true
-    show_theme_chooser: true
     languages: ["en", "ko"]
 
 # Site footer
