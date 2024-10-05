@@ -5,7 +5,7 @@ type: landing
 
 
 sections:
-  - block: hero
+  - block: feature
     content:
       title: Welcome to my homepage.
       text: Let's find out about me!
