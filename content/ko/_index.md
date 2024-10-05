@@ -1,5 +1,5 @@
 ---
-title: ''
+title: 'Home'
 date: 2024-09-24
 type: landing
 
