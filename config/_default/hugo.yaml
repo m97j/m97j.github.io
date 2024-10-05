@@ -21,6 +21,9 @@ defaultContentLanguageInSubdir: true
 removePathAccents: true
 
 
+ignoreErrors:
+  - "error-remote-getcsv"
+
 
 ############################
 ## ADVANCED
