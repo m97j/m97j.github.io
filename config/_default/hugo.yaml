@@ -19,10 +19,7 @@ defaultContentLanguage: ko
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: true
 removePathAccents: true
-languages: ["en", "ko"]
 
-ignoreErrors:
-  - "error-remote-getcsv"
 
 
 ############################
