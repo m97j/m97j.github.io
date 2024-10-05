@@ -21,10 +21,10 @@ main:
   - name: Language
     weight: 50
     hasChildren: true
-  - parent: "language"
+  - parent: "Language"
     name: "한국어"
     url: "/ko/"
-  - parent: "language"
+  - parent: "Language"
     name: "English"
     url: "/en/"
 
