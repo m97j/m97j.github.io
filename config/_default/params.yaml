@@ -43,6 +43,7 @@ header:
       url: "https://hugoblox.com/templates/"
     show_search: true
     show_theme_chooser: true
+    languages: ["en", "ko"]
 
 # Site footer
 footer:
