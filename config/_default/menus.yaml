@@ -9,11 +9,14 @@ main:
   - name: Blogs
     url: /blog
     weight: 20
-  - name: Solutions
-    url: /#solutions
+  - name: Projects
+    url: /projects
     weight: 30
-  - name: Information
+  - name: Study Notes
+    url: /study
     weight: 40
+  - name: Information
+    weight: 50
     hasChildren: true
   - parent: Information
     name: about me
