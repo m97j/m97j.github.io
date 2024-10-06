@@ -7,7 +7,7 @@ main:
     url: /#top
     weight: 10
   - name: Blogs
-    url: /#blog
+    url: /blog
     weight: 20
   - name: Solutions
     url: /#solutions
