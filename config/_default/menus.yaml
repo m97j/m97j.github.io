@@ -23,5 +23,5 @@ main:
     url: about/
   - parent: Information
     name: contact
-    url: contact/
+    url: contact/link/
 
