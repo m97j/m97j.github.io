@@ -88,29 +88,29 @@ sections:
       interval: 2500
   
   - block: features
-    id: features
+    id: interested_in
     content:
-      title: Features
-      text: Build your site with blocks 🧱
+      title: 관심사들
+      text: 관심있는 개발분야들과 관련 기술들
       items:
-        - name: Optimized SEO
+        - name: 게임개발
           icon: magnifying-glass
-          description: Automatic sitemaps, RSS feeds, and rich metadata take the pain out of SEO and syndication.
-        - name: Fast
+          description: Unity, Unreal등의 게임엔진과 C#등의 언어를 사용하여 3D게임을 개발하는 것에 관심이 있습니다.
+        - name: VR컨텐츠 개발
           icon: bolt
-          description: Super fast page load with Tailwind CSS and super fast site building with Hugo.
-        - name: Easy
+          description: 3D게임 사용자에게 더 현실감을 느낄 수 있도록 하는 VR컨텐츠에 대해 관심이 있습니다.
+        - name: 인공지능 관련 기술들
           icon: sparkles
-          description: One-click deployment to GitHub Pages. Have your new website live within 5 minutes!
-        - name: No-Code
+          description: 자연어 처리, 딥러닝 등의 기술을 게임에 적용하여 사용자와 게임 내 인물의 상호작용을 더 자연스럽게 할 수 있습니다.
+        - name: 그래픽 관련 기술
           icon: code-bracket
-          description: Edit and design your site just using rich text (Markdown) and configurable YAML parameters.
-        - name: Highly Rated
+          description: 하이폴리곤을 사용하여 모델을 생성해도 실시간 렌더링이 가능하도록 하는 Unreal5의 나나이트 기술에 대해 공부하고 있습니다.
+        - name: 양자 컴퓨팅 기술
           icon: star
-          description: Rated 5-stars by the community.
-        - name: Swappable Blocks
+          description: 고퀄리티의 무거운 게임 프로그램을 잘 동작시키기 위해서 더 좋은 성능을 가진 양자 컴퓨팅 기술에 대해 공부하고 있습니다.
+        - name: 클라우드 컴퓨팅 관련
           icon: rectangle-group
-          description: Build your pages with blocks - no coding required!
+          description: 사용자가 게임을 플레이 하기 위해 필요한 사양 등의 진입장벽을 낮출 수 있는 클라우드 컴퓨팅 기술과 네트워크 기술등에 관심이 있습니다.
   
 
 ---
