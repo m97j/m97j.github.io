@@ -21,4 +21,7 @@ main:
   - parent: Information
     name: about me
     url: about/
+  - parent: Information
+    name: contact
+    url: contact/
 
