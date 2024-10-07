@@ -20,8 +20,10 @@ main:
     hasChildren: true
   - parent: Information
     name: about me
+    weight: 60
     url: about/
   - parent: Information
     name: contact
+    weight: 70
     url: contact/
 
