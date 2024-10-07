@@ -17,7 +17,7 @@ baseURL: 'https://about.mj.kr/' # Website URL
 
 defaultContentLanguage: ko
 hasCJKLanguage: false
-defaultContentLanguageInSubdir: true
+defaultContentLanguageInSubdir: false
 removePathAccents: true
 
 
