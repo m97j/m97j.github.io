@@ -1,55 +1,45 @@
 ---
-# Display name
-title: 김민재
+title: Contact
+date: 2022-10-24
 
-# Name pronunciation (optional)
-name_pronunciation: kim minjae
+type: landing
 
-# Full name (for SEO)
-first_name: minjae
-last_name: kim
-
-# Status emoji
-status:
-  icon: ☕️
-
-# Is this the primary user of the site?
-superuser: true
-
-# Role/position/tagline`
-role: student of University
-
-# Organizations/Affiliations to show in About widget
-organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
-
-# Short bio (displayed in user profile at end of posts)
-bio: My research interests include game programming, virtual reality and artificial intelligence.
-
-# Social Networking
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
-profiles:
-  - icon: at-symbol
-    url: 'mailto:your-email@example.com'
-    label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  # Link to a PDF of your resume/CV - upload it to `static/uploads/resume.pdf
-  - icon: academicons/cv
-    url: uploads/resume.pdf
-    label: Download my resume
-  - icon: rss
-    url: ./post/index.xml
-    label: Subscribe to my blog via RSS feed
-
-# Highlight the author in author lists? (true/false)
-highlight_name: true
-
-# Author's website URL
-website: ""
+sections:
+  - block: contact
+    content:
+      title: Contact
+      text: |-
+        <br> <span style="font-size:95%">연락처 및 위치</span> <br>
+      email: mmnkjiae.gmail.com
+      phone: +82-10-2923-5525
+      address:
+        street: 전북대학교 공과대학 7호관
+        city: 전주시
+        region: 전라북도
+        postcode: '54896'
+        country: 대한민국
+        country_code: KO
+      coordinates:
+        latitude: '35.84601324617979'
+        longitude: '127.13444961966684'
+      directions: 
+      #contact_links:
+      #  - icon: comments
+      #    icon_pack: fas
+      #    name: Discuss on Forum
+      #    link: 'https://discourse.gohugo.io'
+    
+      # Automatically link email and phone or display as text?
+      autolink: true
+    
+      # # Email form provider
+      # form:
+      #   provider: netlify
+      #   formspree:
+      #     id:
+      #   netlify:
+      #     # Enable CAPTCHA challenge to reduce spam?
+      #     captcha: true
+    design:
+      columns: '3'
 ---
