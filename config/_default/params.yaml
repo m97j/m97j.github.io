@@ -37,7 +37,7 @@ header:
     show_logo: true
     show_day_night: true
     show_search: true
-    languages: ["en", "ko"]
+    
 
 # Site footer
 footer:
