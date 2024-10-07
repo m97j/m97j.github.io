@@ -10,6 +10,8 @@ baseURL: 'https://about.mj.kr/' # Website URL
 ## PAGE OPTIONS
 ############################
 
+ignoreErrors:
+  - "error-remote-getcsv"
 
 ############################
 ## LANGUAGE
@@ -20,9 +22,6 @@ hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
 
-
-ignoreErrors:
-  - "error-remote-getcsv"
 
 
 ############################
