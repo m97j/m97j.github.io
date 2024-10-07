@@ -94,22 +94,22 @@ sections:
       text: 관심있는 개발분야들과 관련 기술들
       items:
         - name: 게임개발
-          icon: magnifying-glass
+          icon: fas fa-gamepad
           description: Unity, Unreal등의 게임엔진과 C#등의 언어를 사용하여 3D게임을 개발하는 것에 관심이 있습니다.
         - name: VR컨텐츠 개발
-          icon: bolt
+          icon: fas fa-vr-cardboard
           description: 3D게임 사용자에게 더 현실감을 느낄 수 있도록 하는 VR컨텐츠에 대해 관심이 있습니다.
         - name: 인공지능 관련 기술들
-          icon: sparkles
+          icon: fas fa-robot
           description: 자연어 처리, 딥러닝 등의 기술을 게임에 적용하여 사용자와 게임 내 인물의 상호작용을 더 자연스럽게 할 수 있습니다.
         - name: 그래픽 관련 기술
-          icon: code-bracket
+          icon: fas fa-palette
           description: 하이폴리곤을 사용하여 모델을 생성해도 실시간 렌더링이 가능하도록 하는 Unreal5의 나나이트 기술에 대해 공부하고 있습니다.
         - name: 양자 컴퓨팅 기술
-          icon: star
+          icon: fas fa-atom
           description: 고퀄리티의 무거운 게임 프로그램을 잘 동작시키기 위해서 더 좋은 성능을 가진 양자 컴퓨팅 기술에 대해 공부하고 있습니다.
         - name: 클라우드 컴퓨팅 관련
-          icon: rectangle-group
+          icon: fas fa-cloud
           description: 사용자가 게임을 플레이 하기 위해 필요한 사양 등의 진입장벽을 낮출 수 있는 클라우드 컴퓨팅 기술과 네트워크 기술등에 관심이 있습니다.
   
 
