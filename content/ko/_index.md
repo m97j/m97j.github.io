@@ -8,7 +8,7 @@ type: landing
 sections:
   - block: features
     content:
-      title: <span style="font-size:70%">Mj HomePage </span>
+      title: <span style="font-size:70%">Minjae Kim's HomePage </span>
       text: <br><span style="font-size:125%">전북대학교 컴퓨터공학부에 재학중인 저의 홈페이지에 오신 것을 환영합니다.</span> <br><br>
         {{% cta cta_link="./about/" cta_text="find out →" %}}
 
@@ -21,17 +21,11 @@ sections:
         align: center
         background:
           image:
-            filename: 
+            filename: interest.png
             filters:
               brightness: 0.4
           position: center
           color: '#000'
-        link:
-          icon: user
-          icon_pack: fas
-          text: <span style="font-size:60%">Join Us</span>
-          text-color: '#000'
-          url: 
 
       - title: <span style="font-size:70%">Game Programming</span>
         content: <span style="font-size:70%">Unity, Unreal등의 게임 엔진을 이용하여 게임 개발<span style="font-size:70%">
@@ -49,7 +43,7 @@ sections:
         align: center
         background:
           image:
-            filename: 
+            filename: vr.png
             filters:
               brightness: 0.4
           position: center
@@ -60,7 +54,7 @@ sections:
         align: center
         background:
           image:
-            filename: 
+            filename: ai.png
             filters:
               brightness: 0.4
           position: center
@@ -71,7 +65,7 @@ sections:
         align: center
         background:
           image:
-            filename: 
+            filename: qc.png
             filters:
               brightness: 0.4
           position: center
