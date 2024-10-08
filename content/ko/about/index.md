@@ -16,7 +16,10 @@ sections:
     content:
       title: 정보
       text: |-
-        <br> <span style="font-size:95%">소속: 전북대학교 컴퓨터공학부</span> <br>
+        <br> <span style="font-size:95%">소속: 전북대학교 컴퓨터공학부
+        진행 중인 프로젝트
+        1. 인체모션 감지 기술을 이용한 낙상 예방 프로그램 개발
+        2. 클라우드 서비스를 이용한 웹 게임 개발 </span> <br>
       email: mmnkjiae@gmail.com
       phone: +82-10-2923-5525
       autolink: true
