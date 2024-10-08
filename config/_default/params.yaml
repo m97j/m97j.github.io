@@ -34,8 +34,8 @@ header:
     enable: true
     align: c
     fixed_to_top: true
-    logo: "assets/media/icons/icon.png"
-    favicon: "assets/media/icons/icon.png"
+    logo: icon.png
+    favicon: assets/media/icons/icon.png
     show_logo: true
     show_day_night: true
     show_search: true
