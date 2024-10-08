@@ -38,7 +38,7 @@ sections:
         align: center
         background:
           image:
-            filename: 
+            filename: game_dev.png
             filters:
               brightness: 0.4
           position: center
