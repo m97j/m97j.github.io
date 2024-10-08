@@ -37,6 +37,7 @@ header:
     logo: icon.png
     favicon: icon.png
     show_logo: true
+    show_favicon: true
     show_day_night: true
     show_search: true
     languages: ["en", "ko"]
