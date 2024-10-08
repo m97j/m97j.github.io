@@ -35,9 +35,7 @@ header:
     align: c
     fixed_to_top: true
     logo: icon.png
-      show_logo: true
     favicon: icon.png
-    show_logo: true
     show_favicon: true
     show_day_night: true
     show_search: true
