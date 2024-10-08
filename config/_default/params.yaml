@@ -35,7 +35,6 @@ header:
     align: c
     fixed_to_top: true
     favicon: icon.png
-    show_favicon: true
     show_day_night: true
     show_search: true
     languages: ["en", "ko"]
