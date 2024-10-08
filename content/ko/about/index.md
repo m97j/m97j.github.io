@@ -19,7 +19,6 @@ sections:
         <br> <span style="font-size:95%">연락처 </span> <br>
       email: mmnkjiae@gmail.com
       phone: +82-10-2923-5525
-      url: https://github.com/m97j/m97j.github.io
 
   
   
