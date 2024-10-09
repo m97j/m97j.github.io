@@ -107,4 +107,49 @@ sections:
           description: 사용자가 게임을 플레이 하기 위해 필요한 사양 등의 진입장벽을 낮출 수 있는 클라우드 컴퓨팅 기술과 네트워크 기술등에 관심이 있습니다.
   
 
+  - block: colleca
+    content:
+      id: section-1
+      title: Blogs
+      subtitle:
+      text:
+      count: 3
+      offset: 0
+      order: desc
+      filters:
+        folders:
+          - blog
+    design:
+      view: community/customcard
+      columns: '2'
+
+  - block: collection
+    content:
+      id: section-2
+      title: Projects
+      subtitle:
+      text:
+      count: 3
+      filters:
+        folders:
+          - projects
+    design:
+      view: community/custom_cpt
+      columns: '2'
+
+
+  - block: collection
+    content:
+      id: section-3
+      title: Study Notes
+      subtitle:
+      text:
+      count: 3
+      filters:
+        folders:
+          - study
+    design:
+      view: community/custom_wall
+      columns: '2'
+
 ---
