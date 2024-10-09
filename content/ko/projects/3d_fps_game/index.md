@@ -2,13 +2,7 @@
 title: ✅ 3D FPS 게임 개발
 summary: 유니티 엔진과 C#을 사용하여 3D 형태의 FPS 게임을 개발했습니다. 플레이어와 적, 무기 등의 객체를 가지고 개발했습니다.
 date: 2024-10-07
-authors:
-  - admin
-tags:
-  - Hugo Blox
-  - Markdown
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+
 ---
 
 ## 3d fps 게임 개발기

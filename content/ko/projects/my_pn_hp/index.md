@@ -2,13 +2,6 @@
 title: ✅ 개인 홈페이지 개발
 summary: Hugo library를 사용하여 홈페이지를 개발했다. 이 홈페이지를 통해 나의 관심사, 정보등에 대해 알 수 있다.
 date: 2024-10-08
-authors:
-  - mj
-tags:
-  - Hugo
-  - Blog
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
 ## 개인 홈페이지 개발 계기

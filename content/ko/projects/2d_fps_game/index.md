@@ -2,13 +2,7 @@
 title: ✅ 2D FPS 게임 개발
 summary: 유니티 엔진과 C#을 사용하여 2D 형태의 FPS 게임을 개발했습니다. 게임의 배경은 우주이고, 화면 위쪽에서 날아오는 적 우주선을 사용자가 피하며, 공격하도록 개발했습니다.
 date: 2024-10-06
-authors:
-  - mj
-tags:
-  - projects
-  - 2d fps
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+
 ---
 
 ## 개발 전 [개발 도구]
