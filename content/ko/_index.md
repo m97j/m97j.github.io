@@ -107,7 +107,7 @@ sections:
           description: 사용자가 게임을 플레이 하기 위해 필요한 사양 등의 진입장벽을 낮출 수 있는 클라우드 컴퓨팅 기술과 네트워크 기술등에 관심이 있습니다.
   
 
-  - block: colleca
+  - block: collection
     content:
       id: section-1
       title: Blogs
