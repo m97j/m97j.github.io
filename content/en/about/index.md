@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title:
+title: about
 date: 2024-03-25
 type: landing
 
@@ -8,9 +8,25 @@ sections:
 
   - block: features
     content:
-      title: 
-      text: <br><span style="font-size:125%">현재 제 관심사는 게임 개발, 인공지능, VR컨텐츠 개발, 양자컴퓨팅 입니다. 현실과 매우 비슷한 환경의 VR 게임 컨텐츠를 개발하여 사용자에게 매우 실감나는 경험을 하도록 하는 것이 저의 목표입니다. 이를 위해 게임 내의 인물등이 사용자와 현실적인 상호작용을 하도록 하기 위한 인공지능 기술과 이러한 실감나는 게임을 개발하기 위해서 요구되는 고품질의 사양을 충족시킬 수 있는 양자컴퓨팅 기술에 관심이 생기게 되었습니다.</span>
+      title: goal
+      text: <br><span style="font-size:125%">My current interests are game development, artificial intelligence, VR content development, and quantum computing. My goal is to develop VR game content that provides users with a highly realistic experience, similar to the real world. To achieve this, I am interested in artificial intelligence technology that enables characters within the game to interact with users in realistic ways, as well as quantum computing technology that can meet the high-quality specifications required for developing such immersive games.</span>
+
+
+  - block: features
+    content:
+      title: information
+      text: |-
+        <br> <span style="font-size:95%">Affiliation: Department of Computer Science, Jeonbuk National University
+        -Ongoing Projects
+        -Development of a Fall Prevention Program Using Human Motion Detection Technology
+        -Development of a Web Game Using Cloud Services</span> <br>
+      email: mmnkjiae@gmail.com
+      phone: +82-10-2923-5525
+      autolink: true
+
+    design:
+      columns: '3'
 
   
-
+  
 ---
