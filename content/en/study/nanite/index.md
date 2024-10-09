@@ -1,47 +1,32 @@
 ---
-title: ✅ 나나이트
-summary: 언리얼 엔진5에 적용된 기술 중 하나로 하이폴리곤 모델을 사용하고도 실시간 렌더링이 가능하게 하는 기술이다.
+title: ✅ nanite
 date: 2024-10-06
 authors:
   - admin
 tags:
-  - Hugo Blox
-  - Markdown
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+  - nanite
+  - unreal5
 ---
 
-## 나나이트의 이해와 원리
+Understanding Nanite and Its Principles
+The basic principle of Nanite involves importing assets used in the engine and clustering a certain portion of triangles into units called clusters, which are then analyzed and decomposed.
 
-나나이트의 기본적인 원리는 엔진에 사용되는 에셋을 임포트를 할 때 트라이앵글의 일정한 부분만큼을 클러스터 라는 단위로 묶어 분석하며 분해해줍니다.
+During rendering, these clusters transition to various Levels of Detail (LOD) based on the camera view and are displayed in real-time in the viewport.
 
-이를 랜더링 하는 동안 클러스터는 카메라뷰를 기반으로 다양한 LOD로 전환되며 실시간으로 뷰포트에서 보여줍니다.
+At this time, only the visible areas are rendered through occlusion culling based on the camera's perspective.
 
-이때 카메라가 바라보는 시점에 따라서 오클루전 컬링을 통해 보이는 곳만 랜더링해줍니다.
+Therefore, Nanite only consumes memory for the areas being streamed by the camera.
 
-그렇기에 나나이트는 카메라가 스트리밍 하고있는 곳만 메모리를 차지합니다.
+However, it's important to note that when processing cluster culling in Nanite, if the distances between surfaces are excessively close and overlap a lot, overdraw can occur.
 
-다만 여기서 주의할 점은 나나이트에서 클러스터 컬링을 처리할 때에 표면 사이의 거리가 지나치게 가까이 많이 겹쳐있게 된다면 오버드로가 발생할 수 있습니다.
+This typically happens when multiple geometries are stacked near the top surface, causing the engine to render both surfaces because it cannot accurately distinguish which is on top.
 
-주로 최상단 표면 가까이에 여러 지오메트리가 쌓여 겹쳐있는 경우 엔진이 위에 있는것인지 정확히 구분하지 못하게 되어 두 표면 모두를 랜더링하게 되고
+Rendering all parts in this manner can lead to optimization issues.
 
-이러한 과정에서 모든 부분을 랜더링하게 되어 최적화에 문제가 생길 수 있습니다.
+Through this process, no matter how high the polygon model is used, we no longer need to create LODs, and there is no loss in quality.
 
- 
+Additionally, high polygons can be used directly without using normal map textures to express details.
 
-이러한 과정을 통해 아무리 높은 폴리곤의 모델링이 사용된다 하여도
+Nanite is especially useful when you want to express a high level of detail.
 
-우리는 더이상 LOD를 제작하지 않아도 되며 퀄리티의 손실도 발생하지 않습니다.
-
- 
-
-또한 하이폴리곤 그 자체를 바로 사용할 수 있게 되어
-
-노말맵 텍스쳐를 이용하여 디테일을 표현하지 않아도 됩니다.
-
-
-나나이트는 고도의 디테일을 표현하고 싶은 경우에서 더더욱 용이하게 사용됩니다.
-
-오히려 로우폴리곤을 제작하고 LOD를 사용하여 사용하는 것 보다
-
-더 적은 코스트로 더 높은 퀄리티와 작은 용량으로 사용될 때도 있습니다.
+It can even be more cost-effective and provide higher quality and smaller size than creating low polygons and using LODs.

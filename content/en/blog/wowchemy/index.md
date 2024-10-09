@@ -1,5 +1,5 @@
 ---
-title: ✅ Wowchemy 소개
+title: ✅ Introducing Wowchemy
 date: 2024-10-06
 authors:
   - mj
