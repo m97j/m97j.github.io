@@ -10,7 +10,6 @@ sections:
     content:
       title: <span style="font-size:70%">Minjae Kim's HomePage </span>
       text: <br><span style="font-size:125%">Welcome to my homepage, I am currently studying in the Department of Computer Science at Jeonbuk National University.</span> <br><br>
-        {{% cta cta_link="./about/" cta_text="find out →" %}}
 
   - block: slider
     content:
