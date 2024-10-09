@@ -1,5 +1,5 @@
 [build]
-  command = "hugo && hugo-algolia"
+  command = "hugo --gc --minify -b $URL" && npx pagefind --source 'public'"
   publish = "public"
 
 [build.environment]
