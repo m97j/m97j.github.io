@@ -84,8 +84,8 @@ features:
     provider: wowchemy
     algolia:
       app_id: 'BVRKTR0WZV'
-      api_key: 'd598b99b419bdf5008534f46b6bc0baf'
-      index_name: 'content'
+      api_key: 'ab128300001499284d68732a89bb40e5'
+      index_name: ''
       show_logo: false
   map:
     provider: 'mapnik'
