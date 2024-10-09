@@ -1,5 +1,4 @@
 [build]
-  [build]
   command = "hugo && hugo-algolia"
   publish = "public"
 
